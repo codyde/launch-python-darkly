@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			href="https://cdnjs.com/libraries/prism/prism@v1.x/themes/prism.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			crossorigin="anonymous"
+		/>
+
+		<title>{% block title %}Home{% endblock %}</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	</head>
+	<body>
+		<script src="https://cdnjs.com/libraries/prism/prism@v1.x/components/prism-core.min.js"></script>
+		<script src="https://cdnjs.com/libraries/prism/prism@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+		<style type="text/css">
+			html,
+			body {
+        background: #282828;
+				height: 100%;
+			}
+			.full-page {
+				height: 100vh;
+				width: 100vw;
+			}
+		</style>
+		<section class="h-100">
+			<header class="container h-100">
+				<div class="d-flex align-items-center justify-content-center h-100">
+					<div class="d-flex flex-column">
+            <img class="animate__animated animate__fadeInLeft" src="/static/{{ osmo }}" alt="stuff">
+					</div>
+				</div>
+			</header>
+		</section>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
